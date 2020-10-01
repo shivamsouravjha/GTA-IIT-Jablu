@@ -1,0 +1,298 @@
+<html>
+<head>
+<title>
+Sample paper
+</title>
+<style>
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0000cc;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color:  #ff0000}
+
+.button:active {
+  background-color: 
+ #ffff00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bgimg-3 {
+  background-image: url("laypx8.jpg");
+  min-height: 100%;
+}
+
+.bgimg-4 {
+  background-image: url("laypx9.jpg");
+  min-height: 100%;
+}
+
+
+
+
+
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 5x;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body vlink=" #ff0066" link="#00ff00">
+<center>
+<img src="LOGO.png" height="300px">
+</center>
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="home.html">Home</a>
+    <a href="sample_paper.html#a">Sample Papers</a>
+    <a href="testnew.php#a">Tests</a>
+    <a href="contact.php#a">Contact</a>
+  </div>
+</div>
+
+<center>
+<button class="button">
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</button>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     </center>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+
+	 
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border">SAMPLE PAPERS</span>
+  </div>
+</div>
+<br>
+	 
+<a name=a>	 
+	 
+	  <div class="main">
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+	<a href="sp3.pdf" download>
+      <img src="math2.png" alt="Mountains" style="width:100%">
+    <CENTER>  <h3>
+	
+	MATHEMATICS</a></h3></CENTER>
+	
+      
+  </div>
+  </DIV>
+  <div class="column">
+    <div class="content">
+	<a href="sp1.pdf" download>
+   <img src="phy6.png" alt="Mountains" style="width:100%">
+    <CENTER>  <h3>
+		
+	PHYSICS</a></h3></CENTER>
+      
+
+      </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="content">
+	<a href="sp2.pdf" download>
+   <img src="chem1.png" alt="Mountains" style="width:100%">
+    <CENTER>  <h3>
+		<a href="sp2.pdf" download>
+	CHEMISTRY</a></h3></CENTER>
+      
+
+      </div>
+  </div>
+  
+  
+  
+  <div class="column">
+    <div class="content">
+     <a href="sp2.pdf" download>
+	<img src="accou.png" alt="Mountains" style="width:100%">
+     <CENTER> <h3>
+	
+	 ACCOUNTANCY</a></h3></CENTER>
+     
+    </div>
+  </div>
+  
+	 
+	 
+</body>
+</html>
